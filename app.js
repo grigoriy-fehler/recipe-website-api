@@ -14,7 +14,7 @@ app.use(express.json())
 
 // Allow CORS Requests
 app.use('/api', (req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'http://www.recipe.g-f.dev/')
+  res.header('Access-Control-Allow-Origin', 'http://www.recipe.g-f.dev')
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization')
   res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, Options')
   next()
