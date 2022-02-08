@@ -1,1 +1,5 @@
 config.prod.js
+data/images/*
+data/ingredients/*
+data/recipes/*
+data/users/*
